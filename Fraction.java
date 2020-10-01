@@ -1,23 +1,23 @@
 
 public class Fraction
 {
-    private int num;
-    private int dem;
+    private int numerator;
+    private int denominator;
 
-    public Fraction(int num, int dem)
+    public Fraction(int num, int den)
     {
-        int numerator = num;
-        int denominator = dem;
+        numerator = num;
+        denominator = den;
     }
     
     public int getNum()
     {
-        return num;
+        return numerator;
     }
     
     public int getDem()
     {
-       return dem;
+       return denominator;
     }
     
 }
